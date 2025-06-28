@@ -1,0 +1,51 @@
+.placeholder-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.placeholder-image span {
+  font-weight: 500;
+  font-size: calc(1rem + 0.2vw);
+  line-height: 1.2;
+  padding: 0.5rem;
+  max-width: 80%;
+}
+
+.placeholder-image .placeholder-dimensions {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 0.75rem;
+  opacity: 0.75;
+  padding: 2px 4px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.profile-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: calc(0.375em + 0.5vw);
+  text-transform: uppercase;
+}
+
+.product-placeholder {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.banner-placeholder {
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%,
+    transparent 75%, transparent);
+  background-size: 10px 10px;
+}
