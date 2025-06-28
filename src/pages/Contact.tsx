@@ -28,10 +28,10 @@ export default function Contact() {
         <div>
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-white p-8 rounded-lg shadow-md flex items-center justify-center space-x-8">
+            <div className="bg-white p-8 rounded-lg shadow-md flex items-center justify-center">
               {/* <h2 className="text-2xl font-bold text-green-900 mb-6">Nasze dane</h2> */}
               
-              <div className="flex flex-row items-start justify-center space-x-12 w-full">
+              <div className="flex flex-col md:flex-row items-start justify-center space-y-8 md:space-y-0 flex-wrap md:space-x-12 w-full">
                 <div className="flex items-start space-x-4">
                   <MapPin className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
@@ -56,13 +56,13 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
                     <p className="text-gray-700">
-                      <a href="mailto:info@tujaworld.com" className="hover:text-green-700">
+                      <a href="mailto:marekkock@gmail.com" className="hover:text-green-700">
                         marekkock@gmail.com
                       </a>
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <Clock className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                   <div>
